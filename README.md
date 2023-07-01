@@ -1,7 +1,7 @@
 # R-programming-course
 R programming course
 
-makeCacheMatrix <- function(x = matrix()) {
+     makeCacheMatrix <- function(x = matrix()) {
      # Initialize the inverse matrix cache
       inverse <- NULL
       
@@ -36,13 +36,13 @@ makeCacheMatrix <- function(x = matrix()) {
            cacheSolve = cacheSolve)
 }
 
-cacheSolve <- function(c(1, 2, 3, 4), nrow = 2) {
+     cacheSolve <- function(c(1, 2, 3, 4), nrow = 2) {
         ## Return a matrix that is the inverse of 'x'
         inverse <- solve(x)
         inverse
 }
 
 # Example usage
-matrix <- matrix(c(1, 2, 3, 4), nrow = 2)
-inverse <- cacheSolve(matrix)
-print(inverse)
+     matrix <- matrix(c(1, 2, 3, 4), nrow = 2)
+     inverse <- cacheSolve(matrix)
+     print(inverse)
