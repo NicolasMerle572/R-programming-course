@@ -1,11 +1,6 @@
 # R-programming-course
 R programming course
 
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
      # Initialize the inverse matrix cache
       inverse <- NULL
@@ -40,9 +35,6 @@ makeCacheMatrix <- function(x = matrix()) {
            getMatrix = getMatrix,
            cacheSolve = cacheSolve)
 }
-
-
-## Write a short comment describing this function
 
 cacheSolve <- function(c(1, 2, 3, 4), nrow = 2) {
         ## Return a matrix that is the inverse of 'x'
